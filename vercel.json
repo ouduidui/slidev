@@ -2,9 +2,13 @@
   "rewrites": [
     {
       "source": "/(.*)",
-      "destination": "/demo/dist/index.html"
+      "destination": "/demo/index.html"
+    },
+    {
+      "source": "/demo/(.*)",
+      "destination": "/demo/index.html"
     }
   ],
   "buildCommand": "npm run build",
-  "outputDirectory": "slides"
+  "outputDirectory": "dist"
 }

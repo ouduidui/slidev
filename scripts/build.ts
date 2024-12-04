@@ -12,7 +12,9 @@ const main = async () => {
     return;
   }
 
-  await $`slidev build ${slidesPath.map(item => item.path).join(' ')}`
+  for(const item of slidesPath) {
+     await $`slidev build ${item.path} --base /demo --out ../../dist/demo`
+  } 
 }
 
 main()
