@@ -155,7 +155,7 @@ doubled.value = 2
 <arrow v-click="[4, 5]" x1="350" y1="310" x2="195" y2="334" color="#953" width="2" arrowSize="1" />
 
 <!-- This allow you to embed external code blocks -->
-<<< @/snippets/external.ts#snippet
+<<< ./snippets/external.ts#snippet
 
 <!-- Footer -->
 
