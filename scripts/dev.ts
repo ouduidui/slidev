@@ -4,6 +4,8 @@ import { $ } from 'zx'
 import { getSlidesPath } from './common'
 import inquirer from 'inquirer'
 
+$.verbose = true;
+
 const main = async () => {
   console.log('run slidev dev...')
 
