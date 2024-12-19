@@ -15,6 +15,9 @@
   },
   "devDependencies": {
     "esno": "^4.8.0",
+    "gulp": "^5.0.0",
+    "gulp-htmlmin": "^5.0.1",
+    "gulp-json-minify": "^1.2.3",
     "inquirer": "^12.1.0",
     "zx": "^8.2.4"
   }
