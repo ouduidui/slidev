@@ -7,6 +7,10 @@
     {
       "source": "/demo/(.*)",
       "destination": "/demo/index.html"
+    },
+    {
+      "source": "/note-app-simple-share/(.*)",
+      "destination": "/note-app-simple-share/index.html"
     }
   ],
   "buildCommand": "npm run build",
