@@ -17,7 +17,7 @@ const main = async () => {
   for(const item of slidesPath) {
     process.push(async () => {
       console.log(`start build ${item.fileName}...`)
-      await $`slidev build ${item.path} --base /${item.fileName} --out ../../dist/${item.fileName}`
+      await $`slidev build ${item.path} --base /${item.fileName}/ --out ../../dist/${item.fileName}`
       console.log(`${item.fileName} build done...`)
     })
   } 
