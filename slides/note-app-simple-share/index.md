@@ -75,7 +75,7 @@ layout: center
 ---
 transition: fade-out
 layout: image-left
-image: ./assets/markdown.png
+image: /markdown.png
 class: left-image
 ---
 
@@ -111,7 +111,7 @@ com">链接</a>...\n<img src="image url"></img>'
 
 ---
 layout: image-left
-image: ./assets/markdown.png
+image: /markdown.png
 class: left-image
 ---
 
